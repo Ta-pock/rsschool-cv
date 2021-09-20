@@ -1,0 +1,60 @@
+<head>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <section id="block">
+<header>
+  <img src="images/nazar.png" alt="image">
+    <h1 style="text-align: center;">    NAZAR TOLSTENKO    </h1>
+    <div id="aboutMe" >A BSUIR student who want's to become a frontend programmer. 
+         <p>I have good communicative skills and I like programming very much.</p> 
+         My willingness to work hard and build my skill base will make me a good candidate for a job.</div>
+</header>
+<div id="middle">
+<section id="leftside">
+    <h2>CONTACTS</h2><hr>
+    <ul>
+      <li><a href="tel:+375447348089">+ 375 44 734-80-89</a></li>
+      <li><a href="https://t.me/Morning135">Telegram: t.me/Morning135</a></li>
+      <li><a href="nazartolstenko@gmail.com">nazartolstenko@gmail.com</a></li>
+    </ul>
+    <h2>EDUCATION</h2><hr>
+    <p><b>Belarusian State University of Informatics and Radioelectronics</b></p>
+    <p>Faculty of Computer-Aided Design</p>
+    <h2>LANGUAGES</h2><hr> 
+    <ul>
+        <li><b>Russian</b> - native</li>
+        <li><b>English</b> - intermediate</li>
+    </ul>
+</section>
+<div id="skills">
+    <h2>MY SKILLS</h2><hr>
+    <p>I learned to use the c++ language at university. I got acquainted with data types, operators, loops, functions and data structures and their organization. Also I individually learned html and css. Now I solve tasks on Codewars to improve my skills in JavaScript and get some practice. Here is my solution to one of the tasks:</p>
+    <h3>Task:</h3>
+    <p>In this kata you are required to, given a string, replace every letter with its position in the alphabet. <br>
+
+        If anything in the text isn't a letter, ignore it and don't return it. <br>
+        
+        "a" = 1, "b" = 2, etc.</p>
+        <h3>Solution:</h3>
+        <pre>
+  var text = prompt('Enter the text');
+  var numberA ='a'.charCodeAt(0);
+for (var i = 0; i < text.length; i++) {
+  if(/[a-zA-Z]/.test(text[i]))
+   getnumberofletters(text[i], numberA);
+}
+function getnumberofletters(letter, a) {
+  var letNumber = letter.toLowerCase().charCodeAt(0) + 1;
+  return document.writeln(letNumber - a);
+}
+        </pre>
+</div>
+</div>
+<footer>
+  <a  href="https://github.com/"><img id="github" src="images/Github.png" alt="github"></a>
+  <a  href="https://rs.school/js/"><img id="rsschool" src="images/rsschool.png" alt="rsschool"></a>
+  <div> &copy; 2021</div>
+</footer>
+  </section>
+</body>
